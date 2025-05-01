@@ -27,7 +27,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
-
+         
+<repositories>
+    <repository>
+        <id>maven-web-application</id>
+        <url>http://52.233.91.124:8081/</url>
+    </repository>
+</repositories>
     <dependencies>
 
         <dependency>
