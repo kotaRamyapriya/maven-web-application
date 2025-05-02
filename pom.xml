@@ -17,6 +17,9 @@
     </organization>
 
     <properties>
+              <jdk.version>17</jdk.version>
+              <maven.compiler.source>11</maven.compiler.source> 
+               <maven.compiler.target>11</maven.compiler.target> 
         <jdk.version>17</jdk.version>
         <spring.version>5.1.2.RELEASE</spring.version>
         <junit.version>4.11</junit.version>
