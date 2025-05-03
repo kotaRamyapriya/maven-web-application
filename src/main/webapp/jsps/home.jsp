@@ -23,6 +23,7 @@
 String ip = "";
 InetAddress inetAddress = InetAddress.getLocalHost();
 ip = inetAddress.getHostAddress();
+int : 8
 out.println("Server Host Name :: "+inetAddress.getHostName()); 
 %>
 <br>
