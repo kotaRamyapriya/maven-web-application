@@ -9,7 +9,7 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to redhat</h1>
+<h1 align="center">Welcome to minthun technilogies</h1>
 <h1 align="center">Phone Number: +91 9980923216</h1>
 <h1 align="center">Mithun Technologies is a wonderful  it is a  Training Center for DevOps, Cloud, Kubernetes and Terraform</h1>
 <h1>minthun</h1>
