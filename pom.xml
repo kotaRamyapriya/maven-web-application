@@ -110,13 +110,13 @@
 	    </snapshotRepository>
 		-->
         <repository>
-	    <id>mavenwebapp</id>
+	    <id>mavenproject</id>
 	      <name>Releasemvenproject</name>
 	      <url>http://52.233.91.124:8081/repository/Releasemvenproject/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>mavenwebapp</id>
+	      <id>mavenproject</id>
 	      <name>snapshotamvenproject</name>
 	      <url>http://52.233.91.124:8081/repository/snapshotamvenproject/</url>
 	    </snapshotRepository>
