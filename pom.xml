@@ -8,7 +8,7 @@
 	<artifactId>mavenproject</artifactId>
 	<packaging>war</packaging>
 	<!--<version>0.0.3-Release</version>-->
-	<version>0.0.88888Release</version>
+	<version>0.0.8snapshot</version>
 	
 	<!--<name>maven-web-application</name>-->
 <name>mavenproject</name>
