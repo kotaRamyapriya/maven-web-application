@@ -107,15 +107,9 @@
 	      <id>mavenwebapp</id>
 	      <name>snapshotmavenwebapp</name>
 	      <url>http://52.233.91.124:8081/repository/snapshotmavenwebapp/</url>
-	    </snapshotRepository>-->
-
-
-
-
-
-
-
-
+	    </snapshotRepository>
+		-->
+        <repository>
 	    <id>mavenwebapp</id>
 	      <name>Releasemvenproject</name>
 	      <url>http://52.233.91.124:8081/repository/Releasemvenproject/</url>
