@@ -3,13 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>mavenproject</artifactId>
+	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
+	
+	<name>maven-web-application</name>
 
-	
-	
-        <name>mavenproject</name>
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
@@ -96,7 +95,7 @@
 	
 	<distributionManagement>
 	
-	 <repository>
+	   <repository>
 	      <id>mavenwebapp</id>
 	      <name>mavenapp-Release</name>
 	      <url>http://52.233.91.124:8081/repository/mavenapp-Release/</url>
@@ -107,8 +106,6 @@
 	      <name>mavenapp-snapshot</name>
 	      <url>http://52.233.91.124:8081/repository/mavenapp-snapshot/</url>
 	    </snapshotRepository>
-		
-     
 	    
 	</distributionManagement>
 	
