@@ -98,29 +98,19 @@
 	
 	<distributionManagement>
 	
-	 <!--   <repository>
+	 <repository>
 	      <id>mavenwebapp</id>
-	      <name>Releasemavenwebapp</name>
-	      <url>http://52.233.91.124:8081/repository/Releasemavenwebapp/</url>
+	      <name>mavenapp-Release</name>
+	      <url>http://52.233.91.124:8081/repository/mavenapp-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>mavenwebapp</id>
-	      <name>snapshotmavenwebapp</name>
-	      <url>http://52.233.91.124:8081/repository/snapshotmavenwebapp/</url>
+	      <name>mavenapp-snapshot</name>
+	      <url>http://52.233.91.124:8081/repository/mavenapp-snapshot/</url>
 	    </snapshotRepository>
-		-->
-        <repository>
-	    <id>mavenproject</id>
-	      <name>Releasemvenproject</name>
-	      <url>http://52.233.91.124:8081/repository/Releasemvenproject/</url>
-	    </repository>
-	    
-	    <snapshotRepository>
-	      <id>mavenproject</id>
-	      <name>snapshotamvenproject</name>
-	      <url>http://52.233.91.124:8081/repository/snapshotamvenproject/</url>
-	    </snapshotRepository>
+		
+     
 	    
 	</distributionManagement>
 	
