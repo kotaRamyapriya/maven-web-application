@@ -6,7 +6,7 @@ stage('get the code from github ')
 {
 git credentialsId: '3f6dcac6-a25e-43ec-8cfa-6c0342371d3d', url: 'https://github.com/kotaRamyapriya/maven-web-application.git'
 }
-stage('creating build package')
+stage(' build packages')
 {
  sh "${mavenHomeDirectory}/bin/mvn clean package"
 }
