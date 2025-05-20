@@ -1,7 +1,7 @@
 node
 {
 def mavenHomeDirectory = tool name: 'Maven 3.9.9'
-properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '10', daysToKeepStr: '', numToKeepStr: '10')), pipelineTriggers([pollSCM('*/1 * * * *')])])
+//properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '10', daysToKeepStr: '', numToKeepStr: '10')), pipelineTriggers([pollSCM('*/1 * * * *')])])
 stage('get the code from github ')
 {
 git credentialsId: '3f6dcac6-a25e-43ec-8cfa-6c0342371d3d', url: 'https://github.com/kotaRamyapriya/maven-web-application.git'
