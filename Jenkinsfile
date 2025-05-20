@@ -10,14 +10,14 @@ stage('creating build package')
 {
  sh "${mavenHomeDirectory}/bin/mvn clean package"
 }
-stage('creating sonarqube report')
+/*stage('creating sonarqube report')
 {
  sh "${mavenHomeDirectory}/bin/mvn sonar:sonar"
 }
 stage('upload build package into nexus')
 {
  sh "${mavenHomeDirectory}/bin/mvn deploy"
-}
+}*/
 /*stage('deploy into tomcat')
 {
 deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'da67adc0-b05d-4faf-96ce-21aead1742d4', path: '', url: 'http://52.224.240.205:8080/')], contextPath: 'maven-web-application', onFailure: false, war: 'target/maven-web-application.war'
